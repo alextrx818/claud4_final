@@ -1,0 +1,16 @@
+[Unit]
+Description=Football Bot Orchestrator
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/Football_bot
+ExecStart=/usr/bin/python3 /root/Football_bot/orchestrator.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/root/Football_bot/orchestrator.log
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target 
