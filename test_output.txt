@@ -1,0 +1,344 @@
+05/27/2025 04:00:15 PM - INFO - Football Bot Orchestrator starting...
+05/27/2025 04:00:15 PM - INFO - Starting cycle #1
+05/27/2025 04:00:15 PM - INFO - === Starting pipeline cycle ===
+05/27/2025 04:00:15 PM - INFO - Running Step 1: Data fetch
+05/27/2025 04:00:50 PM - INFO - Running Step 2: Extract, merge, summarize
+Step 1: Starting data fetch...
+Step 1: Found 23 live matches
+Step 1: Data fetch completed
+Step 2: Starting extract_merge_summarize...
+Step 2: Logger setup successful
+Step 2: Found 23 matches to process
+Step 2 Debug: Match y39mp1h63dx1moj - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match y39mp1h63dx1moj - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match y39mp1h63dx1moj - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match y39mp1h63dx1moj - bookmaker IDs: ['2', '4', '5', '10', '13', '16', '17', '22']
+Step 2 Debug: Match y39mp1h63dx1moj - Added asia with 14 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Added eu with 13 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Added bs with 16 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match n54qllhn24olqvy - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match n54qllhn24olqvy - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match n54qllhn24olqvy - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match n54qllhn24olqvy - bookmaker IDs: ['2', '4', '5', '6', '9', '10', '11', '13', '14', '16', '17', '22']
+Step 2 Debug: Match n54qllhn24olqvy - Added asia with 19 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added eu with 27 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added bs with 36 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added cr with 27 entries
+Step 2 Debug: Match n54qllhn24olqvy - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match ednm9whwk5nzryo - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match ednm9whwk5nzryo - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match ednm9whwk5nzryo - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match ednm9whwk5nzryo - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match ednm9whwk5nzryo - Added asia with 150 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added eu with 122 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added bs with 148 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added cr with 46 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match pxwrxlhygnp6ryk - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhygnp6ryk - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match pxwrxlhygnp6ryk - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhygnp6ryk - bookmaker IDs: ['2', '3', '5', '9', '16', '21', '22']
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added asia with 4 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added eu with 5 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added bs with 10 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 2y8m4zh53v9xql0 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 2y8m4zh53v9xql0 - bookmaker IDs: ['2', '3', '5', '9', '10', '11', '16', '21', '22']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added asia with 80 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added eu with 104 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added bs with 132 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match x7lm7phjkz6nm2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkz6nm2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkz6nm2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkz6nm2w - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added asia with 165 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added eu with 109 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added bs with 211 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added cr with 74 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match jw2r09hklk75rz8 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match jw2r09hklk75rz8 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match jw2r09hklk75rz8 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match jw2r09hklk75rz8 - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match jw2r09hklk75rz8 - Added asia with 193 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added eu with 139 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added bs with 214 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added cr with 112 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match n54qllhn2zwlqvy - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match n54qllhn2zwlqvy - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match n54qllhn2zwlqvy - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match n54qllhn2zwlqvy - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match n54qllhn2zwlqvy - Added asia with 162 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added eu with 155 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added bs with 209 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added cr with 114 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match dn1m1ghl491dmoe - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl491dmoe - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match dn1m1ghl491dmoe - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl491dmoe - bookmaker IDs: []
+Step 2 Debug: Match dn1m1ghl491dmoe - Final odds_struct keys: []
+Step 2 Debug: Match x7lm7phjkx59m2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkx59m2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkx59m2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkx59m2w - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match x7lm7phjkx59m2w - Added asia with 128 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Added eu with 131 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Added bs with 168 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match vjxm8ghe4kddr6o - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghe4kddr6o - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match vjxm8ghe4kddr6o - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghe4kddr6o - bookmaker IDs: ['2', '4', '5', '9', '13', '16', '17']
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added asia with 106 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added eu with 38 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added bs with 216 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match x7lm7phjkxy6m2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkxy6m2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkxy6m2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkxy6m2w - bookmaker IDs: ['2', '4', '5', '9', '11', '13', '16', '17']
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added asia with 68 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added eu with 44 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added bs with 227 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 4jwq2ghn4evlm0v - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 4jwq2ghn4evlm0v - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added asia with 168 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added eu with 217 entries
+05/27/2025 04:00:50 PM - INFO - Step 2 produced 23 summaries and saved to step2.json
+05/27/2025 04:00:50 PM - INFO - Pipeline cycle completed successfully. Processed 23 match summaries.
+05/27/2025 04:00:50 PM - INFO - Cycle #1 completed successfully
+05/27/2025 04:00:50 PM - INFO - Waiting 60 seconds before next cycle...
+05/27/2025 04:01:50 PM - INFO - Starting cycle #2
+05/27/2025 04:01:50 PM - INFO - === Starting pipeline cycle ===
+05/27/2025 04:01:50 PM - INFO - Running Step 1: Data fetch
+05/27/2025 04:02:30 PM - INFO - Running Step 2: Extract, merge, summarize
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added bs with 256 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added cr with 135 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 965mkyhk7ye7r1g - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 965mkyhk7ye7r1g - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 965mkyhk7ye7r1g - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 965mkyhk7ye7r1g - bookmaker IDs: ['2', '3', '4', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added asia with 226 entries
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added eu with 223 entries
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added bs with 289 entries
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added cr with 146 entries
+Step 2 Debug: Match 965mkyhk7ye7r1g - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match dn1m1ghl4238moe - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl4238moe - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match dn1m1ghl4238moe - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl4238moe - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match dn1m1ghl4238moe - Added asia with 128 entries
+Step 2 Debug: Match dn1m1ghl4238moe - Added eu with 89 entries
+Step 2 Debug: Match dn1m1ghl4238moe - Added bs with 253 entries
+Step 2 Debug: Match dn1m1ghl4238moe - Added cr with 152 entries
+Step 2 Debug: Match dn1m1ghl4238moe - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 4wyrn4h68x49q86 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 4wyrn4h68x49q86 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 4wyrn4h68x49q86 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 4wyrn4h68x49q86 - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 4wyrn4h68x49q86 - Added asia with 134 entries
+Step 2 Debug: Match 4wyrn4h68x49q86 - Added eu with 138 entries
+Step 2 Debug: Match 4wyrn4h68x49q86 - Added bs with 225 entries
+Step 2 Debug: Match 4wyrn4h68x49q86 - Added cr with 122 entries
+Step 2 Debug: Match 4wyrn4h68x49q86 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match l7oqdehgno02r51 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match l7oqdehgno02r51 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match l7oqdehgno02r51 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match l7oqdehgno02r51 - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match l7oqdehgno02r51 - Added asia with 212 entries
+Step 2 Debug: Match l7oqdehgno02r51 - Added eu with 215 entries
+Step 2 Debug: Match l7oqdehgno02r51 - Added bs with 252 entries
+Step 2 Debug: Match l7oqdehgno02r51 - Added cr with 119 entries
+Step 2 Debug: Match l7oqdehgno02r51 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 318q66hw3y53qo9 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 318q66hw3y53qo9 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 318q66hw3y53qo9 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 318q66hw3y53qo9 - bookmaker IDs: ['2', '3', '4', '5', '6', '8', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 318q66hw3y53qo9 - Added asia with 167 entries
+Step 2 Debug: Match 318q66hw3y53qo9 - Added eu with 215 entries
+Step 2 Debug: Match 318q66hw3y53qo9 - Added bs with 231 entries
+Step 2 Debug: Match 318q66hw3y53qo9 - Added cr with 112 entries
+Step 2 Debug: Match 318q66hw3y53qo9 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match y0or5jh8lnp6qwz - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match y0or5jh8lnp6qwz - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match y0or5jh8lnp6qwz - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match y0or5jh8lnp6qwz - bookmaker IDs: ['2', '3', '5', '6', '7', '9', '10', '11', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match y0or5jh8lnp6qwz - Added asia with 271 entries
+Step 2 Debug: Match y0or5jh8lnp6qwz - Added eu with 301 entries
+Step 2 Debug: Match y0or5jh8lnp6qwz - Added bs with 329 entries
+Step 2 Debug: Match y0or5jh8lnp6qwz - Added cr with 143 entries
+Step 2 Debug: Match y0or5jh8lnp6qwz - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - Added asia with 284 entries
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - Added eu with 276 entries
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - Added bs with 299 entries
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - Added cr with 159 entries
+Step 2 Debug: Match 4wyrn4hx1y4lq86 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 318q66hxogldqo9 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 318q66hxogldqo9 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 318q66hxogldqo9 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 318q66hxogldqo9 - bookmaker IDs: []
+Step 2 Debug: Match 318q66hxogldqo9 - Final odds_struct keys: []
+Step 2 Debug: Match vjxm8ghlnl6zr6o - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghlnl6zr6o - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match vjxm8ghlnl6zr6o - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghlnl6zr6o - bookmaker IDs: ['3', '4', '5', '6', '9', '10', '11', '13', '15', '16', '17', '21', '22']
+Step 2 Debug: Match vjxm8ghlnl6zr6o - Added asia with 136 entries
+Step 2 Debug: Match vjxm8ghlnl6zr6o - Added eu with 128 entries
+Step 2 Debug: Match vjxm8ghlnl6zr6o - Added bs with 249 entries
+Step 2 Debug: Match vjxm8ghlnl6zr6o - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match pxwrxlhyp89jryk - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhyp89jryk - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match pxwrxlhyp89jryk - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhyp89jryk - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '13', '14', '15', '16', '17', '21']
+Step 2 Debug: Match pxwrxlhyp89jryk - Added asia with 99 entries
+Step 2 Debug: Match pxwrxlhyp89jryk - Added eu with 108 entries
+Step 2 Debug: Match pxwrxlhyp89jryk - Added bs with 184 entries
+Step 2 Debug: Match pxwrxlhyp89jryk - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2: Created 23 summaries
+Step 2 produced 23 summaries and saved to step2.json
+Step 2: Processing completed
+Step 1: Starting data fetch...
+Step 1: Found 24 live matches
+Step 1: Data fetch completed
+Step 2: Starting extract_merge_summarize...
+Step 2: Logger setup successful
+Step 2: Found 24 matches to process
+Step 2 Debug: Match dn1m1ghl49znmoe - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl49znmoe - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match dn1m1ghl49znmoe - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl49znmoe - bookmaker IDs: ['2', '5', '9', '10', '11', '16', '17', '22']
+Step 2 Debug: Match dn1m1ghl49znmoe - Added asia with 11 entries
+Step 2 Debug: Match dn1m1ghl49znmoe - Added eu with 20 entries
+Step 2 Debug: Match dn1m1ghl49znmoe - Added bs with 16 entries
+Step 2 Debug: Match dn1m1ghl49znmoe - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match y39mp1h63dx1moj - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match y39mp1h63dx1moj - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match y39mp1h63dx1moj - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match y39mp1h63dx1moj - bookmaker IDs: ['2', '4', '5', '10', '13', '16', '17', '22']
+Step 2 Debug: Match y39mp1h63dx1moj - Added asia with 15 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Added eu with 13 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Added bs with 19 entries
+Step 2 Debug: Match y39mp1h63dx1moj - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match n54qllhn24olqvy - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match n54qllhn24olqvy - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match n54qllhn24olqvy - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match n54qllhn24olqvy - bookmaker IDs: ['2', '4', '5', '6', '9', '10', '11', '13', '14', '16', '17', '22']
+Step 2 Debug: Match n54qllhn24olqvy - Added asia with 21 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added eu with 29 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added bs with 39 entries
+Step 2 Debug: Match n54qllhn24olqvy - Added cr with 30 entries
+Step 2 Debug: Match n54qllhn24olqvy - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match ednm9whwk5nzryo - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match ednm9whwk5nzryo - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match ednm9whwk5nzryo - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match ednm9whwk5nzryo - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match ednm9whwk5nzryo - Added asia with 150 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added eu with 122 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added bs with 148 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Added cr with 46 entries
+Step 2 Debug: Match ednm9whwk5nzryo - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match pxwrxlhygnp6ryk - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhygnp6ryk - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match pxwrxlhygnp6ryk - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match pxwrxlhygnp6ryk - bookmaker IDs: ['2', '3', '5', '9', '16', '21', '22']
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added asia with 4 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added eu with 5 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Added bs with 10 entries
+Step 2 Debug: Match pxwrxlhygnp6ryk - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 2y8m4zh53v9xql0 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 2y8m4zh53v9xql0 - bookmaker IDs: ['2', '3', '5', '9', '10', '11', '16', '21', '22']
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added asia with 83 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added eu with 107 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Added bs with 136 entries
+Step 2 Debug: Match 2y8m4zh53v9xql0 - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match x7lm7phjkz6nm2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkz6nm2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkz6nm2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkz6nm2w - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added asia with 172 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added eu with 116 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added bs with 216 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Added cr with 76 entries
+Step 2 Debug: Match x7lm7phjkz6nm2w - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match jw2r09hklk75rz8 - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match jw2r09hklk75rz8 - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match jw2r09hklk75rz8 - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match jw2r09hklk75rz8 - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match jw2r09hklk75rz8 - Added asia with 193 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added eu with 139 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added bs with 215 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Added cr with 117 entries
+Step 2 Debug: Match jw2r09hklk75rz8 - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match n54qllhn2zwlqvy - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match n54qllhn2zwlqvy - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match n54qllhn2zwlqvy - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match n54qllhn2zwlqvy - bookmaker IDs: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match n54qllhn2zwlqvy - Added asia with 165 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added eu with 158 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added bs with 216 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Added cr with 116 entries
+Step 2 Debug: Match n54qllhn2zwlqvy - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match dn1m1ghl491dmoe - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl491dmoe - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match dn1m1ghl491dmoe - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match dn1m1ghl491dmoe - bookmaker IDs: []
+Step 2 Debug: Match dn1m1ghl491dmoe - Final odds_struct keys: []
+Step 2 Debug: Match x7lm7phjkx59m2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkx59m2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkx59m2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkx59m2w - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match x7lm7phjkx59m2w - Added asia with 131 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Added eu with 134 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Added bs with 172 entries
+Step 2 Debug: Match x7lm7phjkx59m2w - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match vjxm8ghe4kddr6o - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghe4kddr6o - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match vjxm8ghe4kddr6o - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match vjxm8ghe4kddr6o - bookmaker IDs: ['2', '4', '5', '9', '13', '16', '17']
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added asia with 106 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added eu with 38 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Added bs with 216 entries
+Step 2 Debug: Match vjxm8ghe4kddr6o - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match x7lm7phjkxy6m2w - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkxy6m2w - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match x7lm7phjkxy6m2w - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match x7lm7phjkxy6m2w - bookmaker IDs: ['2', '4', '5', '9', '11', '13', '16', '17']
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added asia with 68 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added eu with 44 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Added bs with 227 entries
+Step 2 Debug: Match x7lm7phjkxy6m2w - Final odds_struct keys: ['asia', 'eu', 'bs']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 4jwq2ghn4evlm0v - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 4jwq2ghn4evlm0v - bookmaker IDs: ['2', '3', '4', '5', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added asia with 168 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added eu with 217 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added bs with 256 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Added cr with 135 entries
+Step 2 Debug: Match 4jwq2ghn4evlm0v - Final odds_struct keys: ['asia', 'eu', 'bs', 'cr']
+Step 2 Debug: Match 965mkyhk7ye7r1g - odds_wrapper type: <class 'dict'>
+Step 2 Debug: Match 965mkyhk7ye7r1g - odds_wrapper keys: ['code', 'results']
+Step 2 Debug: Match 965mkyhk7ye7r1g - bookmaker_odds type: <class 'dict'>
+Step 2 Debug: Match 965mkyhk7ye7r1g - bookmaker IDs: ['2', '3', '4', '6', '9', '10', '11', '13', '14', '15', '16', '17', '21', '22']
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added asia with 226 entries
+Step 2 Debug: Match 965mkyhk7ye7r1g - Added eu with 223 entries
+05/27/2025 04:02:30 PM - INFO - Step 2 produced 24 summaries and saved to step2.json
+05/27/2025 04:02:30 PM - INFO - Pipeline cycle completed successfully. Processed 24 match summaries.
+05/27/2025 04:02:30 PM - INFO - Cycle #2 completed successfully
+05/27/2025 04:02:30 PM - INFO - Waiting 60 seconds before next cycle...

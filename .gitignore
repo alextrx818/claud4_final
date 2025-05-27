@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+orchestrator.log
+fetch_process.log
+cron_timer.log
+step3_summary.log
+
+# Data files (these can be large and change frequently)
+*.json
+!requirements.json
+!package.json
+
+# Session/counter files
+fetch_counter.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~ 
