@@ -4,36 +4,80 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
 venv/
+env/
 ENV/
-
-# Logs
-*.log
-orchestrator.log
-fetch_process.log
-cron_timer.log
-step3_summary.log
-
-# Data files (these can be large and change frequently)
-*.json
-!requirements.json
-!package.json
-
-# Session/counter files
-fetch_counter.txt
+.venv/
+.env/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# OS
+# Logs and Output Files
+*.log
+orchestrator_output.log
+fetch_process.log
+step3_summary.log
+
+# Data Files (keep structure but exclude actual data)
+*.json
+!**/example_*.json
+!**/schema_*.json
+
+# Session and Counter Files
+fetch_counter.txt
+session_*.txt
+
+# Temporary Files
+*.tmp
+*.temp
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
+# API Keys and Secrets (if moved to separate files)
+.env
+config.ini
+secrets.json
+credentials.json
+
+# System Files
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backup Files
 *.bak
-*~ 
+*.backup
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

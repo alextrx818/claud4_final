@@ -285,7 +285,7 @@ def extract_events(match: dict) -> list:
 
 
 def save_match_summaries(summaries: list, output_file: str = "step2.json"):
-    """Save match summaries to JSON file, grouped by match_id."""
+    """Append match summaries to JSON file as growing history."""
     # Group summaries by match_id
     grouped_summaries = {}
     for summary in summaries:
@@ -293,8 +293,8 @@ def save_match_summaries(summaries: list, output_file: str = "step2.json"):
         if match_id:
             grouped_summaries[str(match_id)] = summary
     
-    # Create output structure with metadata
-    output_data = {
+    # Create current batch data
+    current_data = {
         "timestamp": datetime.now(TZ).isoformat(),
         "total_matches": len(grouped_summaries),
         "matches": grouped_summaries
@@ -304,10 +304,30 @@ def save_match_summaries(summaries: list, output_file: str = "step2.json"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     full_path = os.path.join(script_dir, output_file)
     
-    # Write to JSON file (pretty-printed for readability)
+    # Append to existing history
     try:
+        # Load existing data if file exists
+        existing_data = {"history": []}
+        if os.path.exists(full_path):
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    existing_data = json.load(f)
+                    if "history" not in existing_data:
+                        existing_data = {"history": [existing_data] if existing_data else []}
+            except (json.JSONDecodeError, Exception):
+                existing_data = {"history": []}
+        
+        # Add current batch to history
+        existing_data["history"].append(current_data)
+        
+        # Update metadata
+        existing_data["last_updated"] = current_data.get("timestamp")
+        existing_data["total_entries"] = len(existing_data["history"])
+        existing_data["latest_match_count"] = current_data.get("total_matches", 0)
+        
+        # Save updated data
         with open(full_path, "w", encoding="utf-8") as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
+            json.dump(existing_data, f, indent=2, ensure_ascii=False)
         return True
     except Exception:
         return False

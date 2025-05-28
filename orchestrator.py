@@ -27,11 +27,13 @@ DATE_FMT = "%m/%d/%Y %I:%M:%S %p"
 sys.path.append(os.path.join(os.path.dirname(__file__), 'Step1_json_fetch_logger'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'Step2_extract_merge_summarize'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'Step3_json_summary'))
+sys.path.append(os.path.join(os.path.dirname(__file__), 'Step4_json_final_summary'))
 
 # Import step functions
 from step1 import step1_main
 from step2 import extract_merge_summarize
 from step3 import json_summary
+from step4 import json_final_summary
 
 # Setup logging
 logging.basicConfig(
@@ -61,6 +63,13 @@ async def run_pipeline_once():
         # Step 3: JSON summary and grouping
         logger.info("Running Step 3: JSON summary and grouping")
         summary_data = await json_summary(summaries)
+        
+        # Step 4: JSON final summary
+        logger.info("Running Step 4: JSON final summary")
+        logger.info(f"Step 4 input data type: {type(summary_data)}")
+        logger.info(f"Step 4 input match_count: {summary_data.get('match_count', 'No match_count') if isinstance(summary_data, dict) else 'Not a dict'}")
+        final_summary = await json_final_summary(summary_data)
+        logger.info(f"Step 4 output total_matches: {final_summary.get('total_matches', 'No total_matches') if isinstance(final_summary, dict) else 'Not a dict'}")
         
         # Future steps would go here:
         # result3 = await step3(summaries)

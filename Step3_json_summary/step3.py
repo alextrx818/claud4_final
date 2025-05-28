@@ -197,12 +197,32 @@ def write_summary_json(step2_data):
     # Generate the summary data
     summary_data = generate_summary_json(step2_data)
     
-    # Write to JSON file
+    # Append to JSON file (build history)
     try:
-        with open(SUMMARY_JSON_FILE, 'w') as f:
-            json.dump(summary_data, f, indent=2, ensure_ascii=False)
+        # Load existing data if file exists
+        existing_data = {"history": []}
+        if os.path.exists(SUMMARY_JSON_FILE):
+            try:
+                with open(SUMMARY_JSON_FILE, 'r') as f:
+                    existing_data = json.load(f)
+                    if "history" not in existing_data:
+                        existing_data = {"history": [existing_data] if existing_data else []}
+            except (json.JSONDecodeError, Exception):
+                existing_data = {"history": []}
         
-        logger.info(f"Successfully wrote summary JSON with {summary_data['match_count']} matches")
+        # Add current summary to history
+        existing_data["history"].append(summary_data)
+        
+        # Update metadata
+        existing_data["last_updated"] = summary_data.get("generated_at")
+        existing_data["total_entries"] = len(existing_data["history"])
+        existing_data["latest_match_count"] = summary_data.get("match_count", 0)
+        
+        # Save updated data
+        with open(SUMMARY_JSON_FILE, 'w') as f:
+            json.dump(existing_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Successfully appended summary JSON with {summary_data['match_count']} matches to history")
     except Exception as e:
         logger.error(f"Error writing summary JSON file: {e}")
         return None
@@ -254,8 +274,20 @@ async def json_summary(summaries):
         
         try:
             with open(step2_file, 'r') as f:
-                step2_data = json.load(f)
-            print(f"Step 3: Loaded step2.json with {step2_data.get('total_matches', 0)} matches")
+                file_data = json.load(f)
+            
+            # Handle history structure - get the latest entry
+            if isinstance(file_data, dict) and "history" in file_data:
+                if file_data["history"]:
+                    step2_data = file_data["history"][-1]  # Get latest entry
+                    print(f"Step 3: Loaded latest step2 entry with {step2_data.get('total_matches', 0)} matches")
+                else:
+                    print("Step 3: No history entries found in step2.json")
+                    return {}
+            else:
+                # Legacy format without history
+                step2_data = file_data
+                print(f"Step 3: Loaded step2.json with {step2_data.get('total_matches', 0)} matches")
         except Exception as e:
             print(f"Step 3: Error loading step2.json: {e}")
             return {}
