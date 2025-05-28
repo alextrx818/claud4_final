@@ -1,0 +1,29 @@
+To push your Football Bot to GitHub:
+
+1. First, create a new repository on GitHub:
+   - Go to https://github.com/new
+   - Name it "Football_bot" or your preferred name
+   - Don't initialize with README (we already have one)
+   - Create the repository
+
+2. Add the remote repository (replace placeholders):
+   
+   For HTTPS:
+   git remote add origin https://github.com/<your-username>/<repository-name>.git
+   
+   For SSH:
+   git remote add origin git@github.com:<your-username>/<repository-name>.git
+
+3. Rename branch to main (GitHub's default):
+   git branch -M main
+
+4. Push the code:
+   git push -u origin main
+
+Example (if your username is "alextrx818" and repo is "Football_bot"):
+   git remote add origin https://github.com/alextrx818/Football_bot.git
+   git branch -M main
+   git push -u origin main
+
+After pushing, your code will be available at:
+https://github.com/<your-username>/<repository-name> 
