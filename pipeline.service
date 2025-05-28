@@ -1,0 +1,19 @@
+[Unit]
+Description=Football Bot Pipeline with Centralized Logging
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/Football_bot
+ExecStart=/usr/bin/python3 /root/Football_bot/new_orchestrator.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables (if needed)
+# Environment=PYTHONPATH=/root/Football_bot
+
+[Install]
+WantedBy=multi-user.target 
